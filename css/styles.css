@@ -1,5 +1,5 @@
-/* @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
-@import url(http://fonts.googleapis.com/css?family=Pacifico); */
+/* @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico); */
 
 * {
     margin: 0;
@@ -1068,6 +1068,10 @@ footer {
         width: 65%;
         top: 65px;
         height: 50px;
+    }
+
+    .logo {
+        font-size: 1.8em;
     }
 
     .page-section h1 {
