@@ -943,9 +943,54 @@ footer {
     margin: 0 100px;
 }
 
+.flex-container div {
+    width: 300px;
+    background-color: #dddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.address-container {
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.address-container address {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.contact-icon {
+    flex-grow: 1;
+    max-width: 100%;
+    text-align: center;
+    font-size: 38px;
+    color: #CC4646;
+    margin-bottom: 8px;
+}
+
 /* .social i {
     color: #000;
 } */
+
+@media (max-width: 1200px) {
+    .flex-container {
+        margin: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-container div {
+        margin-bottom: 14px;
+    }
+}
 
 @media (max-width: 992px) {
     .logo {
