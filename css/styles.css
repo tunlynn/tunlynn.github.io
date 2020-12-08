@@ -1110,6 +1110,9 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+    #introText h1 {
+        font-size: 30px ;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1156,6 +1159,10 @@ footer {
     .page-section p {
         font-size: 1em;
         margin: 0 0 20px;
+    }
+
+    #introText h1 {
+        font-size: 24px ;
     }
 
     .portfolio-item .portfolio-desc .folio-info h5 {
