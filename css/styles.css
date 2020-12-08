@@ -981,6 +981,20 @@ footer {
     }
 }
 
+@media (max-width: 992px) {
+    .logo {
+        font-size: 1.4em;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 1em;
+    }
+
+    .tileBox {
+        margin-bottom: 14px;
+    }
+}
+
 @media (max-width: 991px) {
     .flex-container {
         flex-direction: column;
@@ -992,15 +1006,7 @@ footer {
     }
 }
 
-@media (max-width: 992px) {
-    .logo {
-        font-size: 1.4em;
-    }
 
-    .navbar-inverse .navbar-nav > li > a {
-        font-size: 1em;
-    }
-}
 
 @media (min-width: 768px) {
     .header .navbar-brand {
